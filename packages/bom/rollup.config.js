@@ -8,28 +8,28 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: 'esm/vue-class-composition.js',
+      file: 'esm/base-bom.js',
       format: 'esm',
-      name: 'vueClassComposition',
-      globals: {
+      name: 'baseBom',
+      /* globals: {
         'vue': 'Vue'
-      }
+      } */
     },
     {
-      file: 'lib/vue-class-composition.js',
+      file: 'lib/base-bom.js',
       format: 'cjs',
-      name: 'vueClassComposition',
-      globals: {
+      name: 'baseBom',
+      /* globals: {
         'vue': 'Vue'
-      }
+      } */
     },
     {
-      file: 'umd/vue-class-composition.js',
+      file: 'umd/base-bom.js',
       format: 'umd',
-      name: 'vueClassComposition',
-      globals: {
+      name: 'baseBom',
+      /* globals: {
         'vue': 'Vue'
-      }
+      } */
     }
   ],
   plugins: [
@@ -43,7 +43,7 @@ export default {
       ignoreGlobal: false
     })
   ],
-  external: ['vue'],
+  external: [],
   watch: {
     include: 'src/**',
     exclude: 'node_modules/**'

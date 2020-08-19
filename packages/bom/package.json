@@ -3,5 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {}
+  "files": [
+    "lib",
+    "esm",
+    "umd"
+  ],
+  "scripts": {
+    "clean": "rimraf lib esm umd",
+    "start": "yarn run clean && rollup --sourcemap -c rollup.config.js --watch",
+    "build": "yarn run clean && rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.15.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.5"
+  }
 }
