@@ -1,0 +1,7 @@
+function getAnimationendEventName() {
+
+}
+
+export {
+    getAnimationendEventName
+}
