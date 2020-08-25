@@ -7,8 +7,8 @@
     "esm",
     "umd"
   ],
-  "main": "lib/base-bom.js",
-  "module": "esm/base-bom.js",
+  "main": "lib/base-dom.js",
+  "module": "esm/base-dom.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "dev": "yarn run clean && rollup --sourcemap -c rollup.config.js --watch",
