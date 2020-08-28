@@ -1,3 +1,3 @@
 import createRollupConfig from '../../build/createRollupConfig';
 
-export default createRollupConfig('base-bom');
+export default createRollupConfig('base-file');
