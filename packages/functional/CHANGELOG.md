@@ -3,9 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.2.1](https://gitlab.onemt.co/onemt-fe-common/base/compare/@base/dom@1.2.0...@base/dom@1.2.1) (2020-09-01)
+## 1.0.1 (2020-09-01)
 
-**Note:** Version bump only for package @base/dom
+**Note:** Version bump only for package @base/functional
 
 
 

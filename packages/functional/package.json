@@ -1,14 +1,14 @@
 {
-  "name": "@base/file",
-  "version": "1.2.1",
+  "name": "@base/functional",
+  "version": "1.0.1",
   "license": "MIT",
   "files": [
     "lib",
     "esm",
     "umd"
   ],
-  "main": "lib/base-file.js",
-  "module": "esm/base-file.js",
+  "main": "lib/base-functional.js",
+  "module": "esm/base-functional.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "dev": "yarn run clean && rollup --sourcemap -c rollup.config.js --watch",
@@ -16,7 +16,6 @@
     "clean": "rimraf lib esm umd"
   },
   "devDependencies": {
-    "glob": "^7.1.6",
     "rollup": "^2.15.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
